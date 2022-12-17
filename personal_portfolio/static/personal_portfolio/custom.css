@@ -1,0 +1,35 @@
+
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5) !important;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+#rcorners4 {
+    border-radius: 50px;
+    background: #73AD21;
+    padding: 0px;
+    
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
